@@ -13,6 +13,7 @@ toDoList.prototype.assignID = function() {
   this.currentId +=1;
   return this.currentId
 }
+// Business logic for tasks
 function Task(taskName, date, priorityLevel, location) {
   this.taskName = taskName;
   this.date = date;
@@ -75,7 +76,7 @@ $(document).ready(function(event) {
     $(`.${newTaskName}`).fadeOut();
 
 
-    newTaskName.clear()
+    // newTaskName.clear()
     console.log(`${newTaskName}`)
   })
 
