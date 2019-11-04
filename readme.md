@@ -8,6 +8,12 @@
 This application gives a brief showing of the power of JavaScript's objects.
 
 
+### Specifications
+
+|Behavior|Input  |Output |
+|--|--|--|
+| Takes users input and displays its contents in the DOM |"Today I have a meeting at 3:00 downtown, this meeting is of high priority"  |Task Name, Task Time, Task Priority|
+| Application will remind the user of task. | "Birthday party at 6:00 p.m."  | Alert (Hello! you have a birthday party this evening at 6:00pm)
 
 
 ### Setup/Installation Requirements
